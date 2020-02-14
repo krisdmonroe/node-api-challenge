@@ -41,7 +41,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] Mention two parts of Express that you learned about this week.
 
 - [ ] Describe Middleware?
-
+    Midleware allows you to shorten your code by checking for certain things before leting it continue to your post or get etc...
 - [ ] Describe a Resource?
 
 - [ ] What can the API return to help clients know if a request was successful?
@@ -50,8 +50,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 ## Minimum Viable Product
 
-- [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
-- [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+- [X] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+- [X] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
