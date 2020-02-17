@@ -82,7 +82,7 @@ function validateActionId(req, res, next) {
   } else if(!valActionNotes) {
     res.status(400).json({message: "missing action notes"})
   } else {
-    res.status(400).json({ message: "missing project description"})
+    res.status(400).json({ message: "missing action description"})
   }
   }
 

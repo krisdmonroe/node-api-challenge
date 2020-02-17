@@ -17,7 +17,8 @@ router.get('/', (req, res) => {
   
 
 router.get('/:id',validateProjectId,  (req, res) => {
-    Data.get().then(data => {
+    const { id } = req.params
+    Data.get(id).then(data => {
         res.status(200).json(data)
     }).catch(err => {
         console.log(err)
